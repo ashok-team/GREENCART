@@ -1,11 +1,12 @@
 import React from 'react'
 import MainBanner from '../components/MainBanner'
+import Categories from '../components/Categories'
 
 const Home = () => {
   return (
     <div className='mt-10'>
-     <MainBanner/>
-     <p>test github teams pull request</p>
+      <MainBanner />
+      <Categories />
     </div>
   )
 }
